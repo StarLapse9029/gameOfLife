@@ -118,6 +118,7 @@ void drawCells(int (*grid)[COLUMNS]){
 }
 
 
+//todo: fix this mess
 void nextGen(int (*grid)[COLUMNS], int (*next)[COLUMNS]){
     for(int i = 0; i < ROWS; i++){
         for(int j = 0; j < COLUMNS; j++){
