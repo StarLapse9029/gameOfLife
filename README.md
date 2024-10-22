@@ -1,7 +1,8 @@
 # gameOfLife
-Conway's game of life in C using SDL2
+#### Conway's game of life in C using SDL2
 
+Compile with:
+```bash
+gcc main.c -o main -lSDL2
+```
 
-
-
-![alt text](demo.gif)
